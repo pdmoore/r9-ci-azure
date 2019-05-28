@@ -17,9 +17,9 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: false   # true for Unit Test reporting
+    publishJUnitResults: true   # true for Unit Test reporting
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-    #    codeCoverageTool: 'JaCoCo'
-    #    summaryFilelocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
-    # reportDirectory: $(System.DefaultWorkingDirectory)/**/coverage'
+      codeCoverageTool: 'JaCoCo'
+      summaryFilelocation: '$(System.DefaultWorkingDirectory)/**/*coverage.xml'
+      reportDirectory: $(System.DefaultWorkingDirectory)/**/coverage'
