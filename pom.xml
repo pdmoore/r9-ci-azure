@@ -20,7 +20,7 @@
             <artifactId>isbn-service</artifactId>
             <version>1.0.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/isbn-service-1.0.0.jar</systemPath>
+            <systemPath>${basedir}/lib/isbn-service-1.0.0.jar</systemPath>
         </dependency>
     </dependencies>
 
